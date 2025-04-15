@@ -99,7 +99,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
-    background-color: var(--fundo-claro);
+    /* background-color: var(--fundo-claro); */
 }
 
 
@@ -120,7 +120,7 @@ header {
 
 .serv-box-txt {
     height: 100%;
-    flex: 1;
+    flex: 2;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
@@ -144,6 +144,7 @@ header {
     max-width: 40%;
     padding: 15px 30px;
     border-radius: 5px;
+    align-self: center;
 }
 
 .serv-cta-btn:hover {
@@ -179,14 +180,12 @@ header {
 .about-us-img,
 .hero-img {
     flex: 1;
-    background-color: #eee;
-    /* pode trocar por imagem */
     height: 300px;
     border-radius: 8px;
 }
 
 .about-us-img {
-    background-image: url(../img/fotos/baratas\ francesas.webp);
+    background-image: url(../img/fotos/dedetizacao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

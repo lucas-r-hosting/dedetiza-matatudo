@@ -34,6 +34,7 @@ html, body {
 body {
     display: block;
     margin: 8px 8px 0px 8px;
+    background-color: rgba(245, 222, 179, 0.4);
 }
 main {
     width: 100%;
