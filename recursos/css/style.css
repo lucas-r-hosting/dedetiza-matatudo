@@ -89,7 +89,9 @@ header {
 }
 
 /* SERVIÇOS CONTAINER */
-
+.services-text {
+    text-align: center;
+}
 
 .serv-box {
     display: flex;
